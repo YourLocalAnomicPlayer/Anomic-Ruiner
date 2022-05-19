@@ -1,0 +1,151 @@
+--Script made by Shariii
+-- Minimum Effort GUI made by YourlocalAnomicPlayer
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("ImageLabel")
+local OneShot = Instance.new("TextButton")
+local DestroyGUI = Instance.new("TextButton")
+local Label = Instance.new("TextLabel")
+local Label_Roundify_12px = Instance.new("ImageLabel")
+local ShapeHider = Instance.new("Frame")
+local CreditforShariiii = Instance.new("TextLabel")
+local Label_Roundify_12px_2 = Instance.new("ImageLabel")
+local GUIcredit = Instance.new("TextLabel")
+local Label_Roundify_12px_3 = Instance.new("ImageLabel")
+local ShapeHider_2 = Instance.new("Frame")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 1.000
+main.Position = UDim2.new(0.146919429, 0, 0.535893202, 0)
+main.Size = UDim2.new(0, 249, 0, 144)
+main.Image = "rbxassetid://3570695787"
+main.ImageColor3 = Color3.fromRGB(47, 47, 47)
+main.ScaleType = Enum.ScaleType.Slice
+main.SliceCenter = Rect.new(100, 100, 100, 100)
+main.SliceScale = 0.120
+main.Activate = true
+main.Draggable = true
+
+OneShot.Name = "OneShot"
+OneShot.Parent = main
+OneShot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OneShot.Position = UDim2.new(0.092856288, 0, 0.340277791, 0)
+OneShot.Size = UDim2.new(0, 74, 0, 45)
+OneShot.Font = Enum.Font.SourceSans
+OneShot.Text = "One Shot"
+OneShot.TextColor3 = Color3.fromRGB(0, 0, 0)
+OneShot.TextSize = 14.000
+OneShot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalAnomicPlayer/OneShot-Public/main/Script",true))();
+end)
+
+
+
+DestroyGUI.Name = "Destroy GUI"
+DestroyGUI.Parent = main
+DestroyGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestroyGUI.Position = UDim2.new(0.587684095, 0, 0.340277791, 0)
+DestroyGUI.Size = UDim2.new(0, 74, 0, 45)
+DestroyGUI.Font = Enum.Font.SourceSans
+DestroyGUI.Text = "Destroy GUI"
+DestroyGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+DestroyGUI.TextSize = 14.000
+DestroyGUI.MouseButton1Down:connect(function()
+	script.Parent.Visible = false
+end)
+
+Label.Name = "Label"
+Label.Parent = main
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.BorderSizePixel = 0
+Label.Size = UDim2.new(0, 249, 0, 30)
+Label.ZIndex = 2
+Label.Font = Enum.Font.SourceSans
+Label.Text = "Minimum Effort"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextSize = 14.000
+
+Label_Roundify_12px.Name = "Label_Roundify_12px"
+Label_Roundify_12px.Parent = Label
+Label_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Label_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_Roundify_12px.BackgroundTransparency = 1.000
+Label_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Label_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Label_Roundify_12px.Image = "rbxassetid://3570695787"
+Label_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Label_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Label_Roundify_12px.SliceScale = 0.120
+
+ShapeHider.Name = "Shape Hider"
+ShapeHider.Parent = main
+ShapeHider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShapeHider.BorderSizePixel = 0
+ShapeHider.Position = UDim2.new(0, 0, 0.138888896, 0)
+ShapeHider.Size = UDim2.new(0, 249, 0, 10)
+ShapeHider.ZIndex = 3
+
+CreditforShariiii.Name = "Credit for Shariiii"
+CreditforShariiii.Parent = main
+CreditforShariiii.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditforShariiii.BackgroundTransparency = 1.000
+CreditforShariiii.BorderSizePixel = 0
+CreditforShariiii.Position = UDim2.new(0, 0, 0.791666687, 0)
+CreditforShariiii.Size = UDim2.new(0, 249, 0, 30)
+CreditforShariiii.ZIndex = 2
+CreditforShariiii.Font = Enum.Font.SourceSans
+CreditforShariiii.Text = " Script made By: Shariiii"
+CreditforShariiii.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreditforShariiii.TextSize = 14.000
+
+Label_Roundify_12px_2.Name = "Label_Roundify_12px"
+Label_Roundify_12px_2.Parent = CreditforShariiii
+Label_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Label_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_Roundify_12px_2.BackgroundTransparency = 1.000
+Label_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Label_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+Label_Roundify_12px_2.Image = "rbxassetid://3570695787"
+Label_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+Label_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Label_Roundify_12px_2.SliceScale = 0.120
+
+GUIcredit.Name = "GUI credit"
+GUIcredit.Parent = main
+GUIcredit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUIcredit.BackgroundTransparency = 1.000
+GUIcredit.BorderSizePixel = 0
+GUIcredit.Position = UDim2.new(0, 0, 0.861110926, 0)
+GUIcredit.Size = UDim2.new(0, 249, 0, 28)
+GUIcredit.ZIndex = 2
+GUIcredit.Font = Enum.Font.SourceSans
+GUIcredit.Text = "Minimum Effort GUI made by YourLocalAnomicPlayer"
+GUIcredit.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUIcredit.TextSize = 14.000
+
+Label_Roundify_12px_3.Name = "Label_Roundify_12px"
+Label_Roundify_12px_3.Parent = GUIcredit
+Label_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Label_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_Roundify_12px_3.BackgroundTransparency = 1.000
+Label_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Label_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+Label_Roundify_12px_3.Image = "rbxassetid://3570695787"
+Label_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+Label_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Label_Roundify_12px_3.SliceScale = 0.120
+
+ShapeHider_2.Name = "Shape Hider"
+ShapeHider_2.Parent = main
+ShapeHider_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShapeHider_2.BorderSizePixel = 0
+ShapeHider_2.Position = UDim2.new(0, 0, 0.784722209, 0)
+ShapeHider_2.Size = UDim2.new(0, 249, 0, 10)
+ShapeHider_2.ZIndex = 3
